@@ -17,9 +17,11 @@
 }
 
 .header__container__iduser p {
+    height: 24px;
     color: #464646;
     font-size: 1rem;
     font-weight: 700;
+    margin-top: 12px;
 }
 
 .header__container__nav ul{
