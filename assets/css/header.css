@@ -1,0 +1,47 @@
+.header__container {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__container__iduser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.header__container__iduser img {
+    width: 24px;
+}
+
+.header__container__iduser p {
+    color: #464646;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header__container__nav ul{
+    display: flex;
+    gap: 32px;
+}
+
+.header__container__nav li {
+    transition: all .5s;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all .5s;
+    }
+}
+
+.header__container__nav li a{
+    color: #464646;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 700;
+}
