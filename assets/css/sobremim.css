@@ -1,0 +1,28 @@
+.sobremim__container {
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #EAF2FD;
+    padding: 64px 140px;
+}
+
+.sobremim__container h2 {
+    color: #464646;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.sobremim__container p {
+    width: 751px;
+    color: #464646;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.sobremim__container img {
+    width: 140px;
+    height: 52px;
+}
