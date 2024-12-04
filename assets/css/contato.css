@@ -1,0 +1,119 @@
+.container__contato {
+    background-color: #EAF2FD;
+    padding: 64px;
+}
+
+.container__contato__area {
+    width: 1136px;
+    height: 660px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 64px;
+}
+
+.container__contato__area h2 {
+    color: #464646;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container__contato__area p {
+    color: #464646;
+    font-size: 1rem;
+}
+
+.container__contato__form__area {
+    height: 593px;
+    position: relative;
+}
+
+.container__contato__form__area--secparagraph {
+    margin-bottom: 32px;
+}
+
+.container__contato--img {
+    width: 464px;
+    height: 593px;
+}
+
+.contato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__form__area {
+    width: 656px;
+    height: 56px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #C8C8C8;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    background-color: #FFFFFF;
+    margin-bottom: 32px;
+    padding: 7px 12px;
+
+    &:focus-within{
+        border-bottom: 2px solid #2A7AE4;
+    }
+
+    &:focus-within > label{
+        color: #2A7AE4;
+    }
+}
+
+.contato__form__area label {
+    color: #A2A2A2;
+    font-size: 0.75rem;
+}
+
+.contato__form__area input {
+    all: unset;
+    color: #464646;
+    font-size: 1.25rem;
+
+    &::placeholder {
+        color: #A2A2A2;
+        font-size: 1rem;
+    }
+}
+
+textarea {
+    all:unset;
+    height: 133px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #C8C8C8;
+    color: #464646;
+    font-size: 1.25rem;
+    padding: 12px;
+
+    &:focus{
+        border-bottom: 2px solid #2A7AE4;
+    }
+}
+
+textarea::placeholder {
+    color: #A2A2A2;
+    font-size: 1rem;
+}
+
+.form__button {
+    all: unset;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    padding: 16px;
+    transition: all .5s;
+
+    &:hover {
+        background-color: #5595E9;
+        cursor: pointer;
+        transition: all .5s;
+    }
+}
